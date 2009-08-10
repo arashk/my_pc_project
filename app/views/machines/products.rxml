@@ -1,0 +1,5 @@
+xml.products(:type => "robot_products") do
+  @products.each do |product|
+    xml.product product, :type => 'robot'
+  end
+end
